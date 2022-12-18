@@ -1,0 +1,154 @@
+/* Police écriture */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+html body {
+    overflow-x: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body {
+    background-color: #faedcd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.4rem;
+    border-radius: 10%;
+}
+
+.img_main {
+    display: flex;
+    justify-content: center;
+}
+
+.img_main img {
+    border-radius: 20%;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 17.5rem;
+    height: auto;
+}
+
+.txt_center {
+    text-align: center;
+}
+
+.separation {
+    /* POUR FORMAT DESKTOP
+    margin-left: 10rem;
+    margin-right: 10rem;
+    */
+}
+
+.sous_img_main {
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    /* en format tel on laisse en column et en desktop on passera en row */
+    flex-direction: column;
+}
+
+/* DISPLAY BLOCK QUAND ON SERA EN DESKTOP */
+.slash_main {
+    display: none;
+}
+
+.slash_main img {
+    width: 0.4rem;
+    height: 5rem;
+}
+
+.slash_horizontal {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.slash_horizontal img {
+    width: 100vh;
+    height: 0.25rem;
+    border-radius: 50%;
+}
+
+.body1 {
+    display: flex;
+    /* a changer pr le Desktop */
+    flex-direction: column;
+    padding: 0.7rem;
+}
+
+.sous_body_img {
+    display: flex;
+    justify-content: center;
+}
+
+.body1 img {
+    width: 13rem;
+    height: auto;
+    border-radius: 20%;
+}
+
+.txt_illu1 {
+    /* changer le center pour remettre par défaut pr les Dekstop */
+    text-align: center;
+}
+
+.all_illu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.illu_img {
+
+}
+
+.illu_img img {
+    width: 8rem;
+    height: auto;
+    border-radius: 20%;
+}
+
+.txt_explication {
+    padding: 1.2rem;
+}
+
+footer {
+    background-color: #e8dcbd;
+}
+
+.all_foot {
+
+}
+
+.tel {
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+    .numero_tel {
+        text-decoration: none;
+        color: black;
+        font-size: 1.1rem;
+    }
+
+.reseaux {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+    .facebook_logo {
+        width: 1.8rem;
+        height: auto;
+    }
