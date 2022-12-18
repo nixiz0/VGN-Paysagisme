@@ -107,6 +107,15 @@ nav a {
     text-align: center;
 }
 
+.vertical-line {
+    display: none;
+    border-left: 3.5px solid #000;
+    position: relative;
+    height: 25rem;
+    margin-left: 2.5rem;
+    margin-top: 5rem;
+}
+
 .all_illu {
     display: flex;
     justify-content: space-evenly;
@@ -125,9 +134,7 @@ nav a {
     padding: 1rem;
 }
 
-.illu_img {
-
-}
+.illu_img {}
 
 .illu_img img {
     width: 8rem;
@@ -145,42 +152,40 @@ footer {
     margin-top: 4rem;
 }
 
-.all_foot {
-
-}
+.all_foot {}
 
 .tel {
     padding: 0.3rem;
     font-size: 1.2rem;
 }
 
-    .numero_tel {
-        text-decoration: none;
-        color: white;
-        font-size: 1.1rem;
-    }
+.numero_tel {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
 
 .reseaux {
     display: inline-block;
     font-size: 1.2rem;
 }
 
-    .facebook_logo {
-        width: 1.8rem;
-        height: auto;
-    }
+.facebook_logo {
+    width: 1.8rem;
+    height: auto;
+}
 
 
 @media (min-width:690px) {
     nav {
         font-size: 1.5rem;
     }
-    
+
     .img_main img {
         margin-top: 3rem;
         width: 33rem;
     }
-    
+
     .txt_center {
         text-align: center;
         font-size: 1.5rem;
@@ -189,33 +194,33 @@ footer {
     .txt_center h3 {
         font-size: 2.5rem;
     }
-    
+
     .sous_img_main {
         padding: 1rem;
     }
-    
+
     .body1 {
         display: flex;
         /* a changer pr le Desktop */
         flex-direction: row;
         padding: 1rem;
     }
-    
+
     .sous_body_img {
         display: flex;
         justify-content: center;
     }
-    
+
     .body1 img {
         width: 13rem;
         height: auto;
         border-radius: 20%;
     }
-    
+
     .sous_body_img img {
         padding: 0.2rem;
     }
-    
+
     .txt_illu1 h4 {
         margin-top: 5rem;
         font-size: 1.7rem;
@@ -227,13 +232,21 @@ footer {
         font-size: 1.6rem;
         padding: 2rem;
     }
-    
+
     .illu_desktop {
         display: block;
         margin-top: 8rem;
         padding-top: 3rem;
         background-color: #3a5a40;
         color: #f6f7f8;
+    }
+
+    .vertical-line {
+        display: inline-block;
+        position: relative;
+        height: 45rem;
+        margin-left: 2.5rem;
+        margin-top: 5rem;
     }
 
     .all_illu {
@@ -254,28 +267,28 @@ footer {
     .illu_img h5 {
         font-size: 1.5rem;
     }
-    
+
     .txt_explication {
         padding: 2rem;
         font-size: 1.5rem;
     }
-    
+
     .tel {
         padding: 0.5rem;
         font-size: 2rem;
     }
-    
-        .numero_tel {
-            font-size: 2rem;
-        }
-    
+
+    .numero_tel {
+        font-size: 2rem;
+    }
+
     .reseaux {
         font-size: 2rem;
     }
-    
-        .facebook_logo {
-            width: 4rem;
-        }
+
+    .facebook_logo {
+        width: 4rem;
+    }
 }
 
 @media (min-width:1300px) {
@@ -283,13 +296,13 @@ footer {
         padding: 1rem;
         font-size: 1.5rem;
     }
-    
+
     .img_main img {
         border-radius: 10%;
         margin-top: 2.5rem;
         width: 100vh;
     }
-    
+
     .txt_center {
         text-align: center;
     }
@@ -297,12 +310,12 @@ footer {
     .txt_center h3 {
         font-size: 3rem;
     }
-    
+
     .separation {
         margin-left: 7rem;
         margin-right: 7rem;
     }
-    
+
     .sous_img_main {
         padding: 2.5rem;
         display: flex;
@@ -310,18 +323,18 @@ footer {
         /* en format tel on laisse en column et en desktop on passera en row */
         flex-direction: row;
     }
-    
+
     /* DISPLAY BLOCK QUAND ON SERA EN DESKTOP */
     .slash_main {
         display: block;
     }
-    
+
     .slash_main img {
         margin-top: 1.5rem;
         width: 0.25rem;
         height: 7rem;
     }
-    
+
     .slash_horizontal {
         margin-bottom: 5rem;
     }
@@ -329,18 +342,18 @@ footer {
     .slash_horizontal img {
         width: 200vh;
     }
-    
+
     .body1 {
         display: flex;
         /* a changer pr le Desktop */
         flex-direction: row;
         padding: 5rem;
     }
-    
+
     .body1 img {
         width: 30rem;
     }
-    
+
     .sous_body_img img {
         padding: 1rem;
     }
@@ -355,8 +368,10 @@ footer {
         text-align: inherit;
         font-size: 2rem;
         padding: 5rem;
+        padding-left: 1rem;
+        padding-right: 0rem;
     }
-    
+
     .illu_desktop {
         display: flex;
         justify-content: space-evenly;
@@ -364,6 +379,14 @@ footer {
         padding-top: 5rem;
         background-color: #3a5a40;
         color: #f6f7f8;
+    }
+
+    .vertical-line {
+        display: inline-block;
+        position: relative;
+        height: 50rem;
+        margin-left: 2rem;
+        margin-top: 7rem;
     }
 
     .all_illu {
@@ -381,9 +404,7 @@ footer {
         margin-right: 2rem;
     }
 
-    .all_illu2 {
-
-    }
+    .all_illu2 {}
 
     .illu_img img {
         width: 12rem;
@@ -393,25 +414,25 @@ footer {
     .illu_img h5 {
         font-size: 1.8rem;
     }
-    
+
     .txt_explication {
         padding: 4rem;
     }
-    
+
     .tel {
         padding: 0.5rem;
         font-size: 2rem;
     }
-    
-        .numero_tel {
-            font-size: 2rem;
-        }
-    
+
+    .numero_tel {
+        font-size: 2rem;
+    }
+
     .reseaux {
         font-size: 2rem;
     }
-    
-        .facebook_logo {
-            width: 3.5rem;
-        }
+
+    .facebook_logo {
+        width: 3.5rem;
+    }
 }
