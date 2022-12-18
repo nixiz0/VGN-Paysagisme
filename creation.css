@@ -1,0 +1,140 @@
+.img_nos_crea {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+.img_nos_crea img {
+    width: 20rem;
+    height: auto;
+    border-radius: 5%;
+}
+
+.all_jardin {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_crea {
+    text-align: center;
+}
+
+.img_crea img {
+    border-radius: 7%;
+    width: 6.5rem;
+    height: auto;
+}
+
+.all_elagage {
+    padding: 0.5rem;
+    background-color: #3a5a40;
+    color: #f6f7f8;
+}
+
+.elagage_illu {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.elagage_illu img {
+    border-radius: 5%;
+    width: 15rem;
+    height: auto;
+}
+
+.txt_elagage {
+    text-align: center;
+}
+
+    .txt_elagage h4 {
+        font-size: 1.2rem;
+    }
+
+.all_massif {
+    margin-top: 4rem;
+}
+
+.massif_illu {
+    display: flex;
+    justify-content: center;
+}
+
+.massif_illu img {
+    padding: 0.5rem;
+    border-radius: 10%;
+    width: 18rem;
+    height: auto;
+}
+
+.txt_massif {
+    text-align: center;
+}
+
+    .txt_massif h4 {
+        font-size: 1.2rem;
+    }
+
+.terra_all {
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: #614e42;
+    color: #f6f7f8;
+}
+
+.terra_illu {
+    display: flex;
+    justify-content: center;
+}
+
+.terra_illu img {
+    border-radius: 10%;
+    padding: 1rem;
+    width: 18rem;
+    height: auto;
+}
+
+.txt_terra {
+    text-align: center;
+}
+
+.txt_terra h4 {
+    font-size: 1.2rem;
+}
+
+.taillage_all {
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.main_taillage {
+    display: flex;
+    justify-content: center;
+}
+
+.main_taillage img {
+    border-radius: 2%;
+    width: 19rem;
+    height: auto;
+}
+
+.txt_taillage {
+    text-align: center;
+}
+
+    .txt_taillage h4 {
+        font-size: 1.2rem
+    }
+
+.sous_taillage {
+    display: flex;
+    justify-content: center;
+}
+
+.sous_taillage img {
+    padding: 0.7rem;
+    border-radius: 15%;
+    width: 16rem;
+    height: auto;
+}
