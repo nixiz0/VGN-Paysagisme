@@ -91,12 +91,15 @@ nav a {
 .sous_body_img {
     display: flex;
     justify-content: center;
+    padding: 0.2rem;
 }
 
 .body1 img {
-    width: 13rem;
+    width: 9rem;
     height: auto;
     border-radius: 20%;
+    padding: 0.5rem;
+
 }
 
 .txt_illu1 {
@@ -108,6 +111,18 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: #3a5a40;
+    color: #f6f7f8;
+    padding: 1rem;
+}
+
+.all_illu2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3a5a40;
+    color: #f6f7f8;
+    padding: 1rem;
 }
 
 .illu_img {
@@ -154,3 +169,249 @@ footer {
         width: 1.8rem;
         height: auto;
     }
+
+
+@media (min-width:690px) {
+    nav {
+        font-size: 1.5rem;
+    }
+    
+    .img_main img {
+        margin-top: 3rem;
+        width: 33rem;
+    }
+    
+    .txt_center {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .txt_center h3 {
+        font-size: 2.5rem;
+    }
+    
+    .sous_img_main {
+        padding: 1rem;
+    }
+    
+    .body1 {
+        display: flex;
+        /* a changer pr le Desktop */
+        flex-direction: row;
+        padding: 1rem;
+    }
+    
+    .sous_body_img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .body1 img {
+        width: 13rem;
+        height: auto;
+        border-radius: 20%;
+    }
+    
+    .sous_body_img img {
+        padding: 0.2rem;
+    }
+    
+    .txt_illu1 h4 {
+        margin-top: 5rem;
+        font-size: 1.7rem;
+    }
+
+    .txt_illu1 {
+        /* changer le center pour remettre par défaut pr les Dekstop */
+        text-align: inherit;
+        font-size: 1.6rem;
+        padding: 2rem;
+    }
+    
+    .illu_desktop {
+        display: block;
+        margin-top: 8rem;
+        padding-top: 3rem;
+        background-color: #3a5a40;
+        color: #f6f7f8;
+    }
+
+    .all_illu {
+        padding: 1.8rem;
+    }
+
+    .all_illu2 {
+        margin-top: 0rem;
+        padding: 1.8rem;
+    }
+
+    .illu_img img {
+        width: 14rem;
+        height: auto;
+        border-radius: 20%;
+    }
+
+    .illu_img h5 {
+        font-size: 1.5rem;
+    }
+    
+    .txt_explication {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+    
+    .tel {
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+    
+        .numero_tel {
+            font-size: 2rem;
+        }
+    
+    .reseaux {
+        font-size: 2rem;
+    }
+    
+        .facebook_logo {
+            width: 4rem;
+        }
+}
+
+@media (min-width:1300px) {
+    nav {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    .img_main img {
+        border-radius: 10%;
+        margin-top: 2.5rem;
+        width: 100vh;
+    }
+    
+    .txt_center {
+        text-align: center;
+    }
+
+    .txt_center h3 {
+        font-size: 3rem;
+    }
+    
+    .separation {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+    
+    .sous_img_main {
+        padding: 2.5rem;
+        display: flex;
+        justify-content: center;
+        /* en format tel on laisse en column et en desktop on passera en row */
+        flex-direction: row;
+    }
+    
+    /* DISPLAY BLOCK QUAND ON SERA EN DESKTOP */
+    .slash_main {
+        display: block;
+    }
+    
+    .slash_main img {
+        margin-top: 1.5rem;
+        width: 0.25rem;
+        height: 7rem;
+    }
+    
+    .slash_horizontal {
+        margin-bottom: 5rem;
+    }
+
+    .slash_horizontal img {
+        width: 200vh;
+    }
+    
+    .body1 {
+        display: flex;
+        /* a changer pr le Desktop */
+        flex-direction: row;
+        padding: 5rem;
+    }
+    
+    .body1 img {
+        width: 30rem;
+    }
+    
+    .sous_body_img img {
+        padding: 1rem;
+    }
+
+    .txt_illu1 h4 {
+        margin-top: 5rem;
+        font-size: 2.5rem;
+    }
+
+    .txt_illu1 {
+        /* changer le center pour remettre par défaut pr les Dekstop */
+        text-align: inherit;
+        font-size: 2rem;
+        padding: 5rem;
+    }
+    
+    .illu_desktop {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 8rem;
+        padding-top: 5rem;
+        background-color: #3a5a40;
+        color: #f6f7f8;
+    }
+
+    .all_illu {
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .all_illu img {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .all_illu2 img {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .all_illu2 {
+
+    }
+
+    .illu_img img {
+        width: 12rem;
+        height: auto;
+    }
+
+    .illu_img h5 {
+        font-size: 1.8rem;
+    }
+    
+    .txt_explication {
+        padding: 4rem;
+    }
+    
+    .tel {
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+    
+        .numero_tel {
+            font-size: 2rem;
+        }
+    
+    .reseaux {
+        font-size: 2rem;
+    }
+    
+        .facebook_logo {
+            width: 3.5rem;
+        }
+}

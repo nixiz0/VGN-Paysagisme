@@ -48,9 +48,9 @@
     text-align: center;
 }
 
-    .txt_elagage h4 {
-        font-size: 1.2rem;
-    }
+.txt_elagage h4 {
+    font-size: 1.2rem;
+}
 
 .all_massif {
     margin-top: 4rem;
@@ -72,9 +72,9 @@
     text-align: center;
 }
 
-    .txt_massif h4 {
-        font-size: 1.2rem;
-    }
+.txt_massif h4 {
+    font-size: 1.2rem;
+}
 
 .terra_all {
     margin-top: 4rem;
@@ -103,6 +103,10 @@
     font-size: 1.2rem;
 }
 
+.taillage_desktop {
+    display: block;
+}
+
 .taillage_all {
     margin-top: 4rem;
     padding: 1rem;
@@ -123,9 +127,9 @@
     text-align: center;
 }
 
-    .txt_taillage h4 {
-        font-size: 1.2rem
-    }
+.txt_taillage h4 {
+    font-size: 1.2rem
+}
 
 .sous_taillage {
     display: flex;
@@ -137,4 +141,192 @@
     border-radius: 15%;
     width: 16rem;
     height: auto;
+}
+
+
+@media (min-width:690px) {
+    .img_nos_crea {
+        margin-top: 2rem;
+    }
+
+    .img_nos_crea img {
+        width: 30rem;
+    }
+
+    .all_jardin {
+        margin-top: 6rem;
+    }
+
+    .img_crea img {
+        width: 11rem;
+    }
+
+    .img_crea h4,
+    p {
+        font-size: 1.5rem;
+    }
+
+    .all_elagage {
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+
+    .elagage_illu {
+        padding: 2rem;
+    }
+
+    .elagage_illu img {
+        width: 30rem;
+    }
+
+    .txt_elagage {
+        text-align: center;
+    }
+
+    .txt_elagage h4 {
+        font-size: 1.7rem;
+    }
+
+    .all_massif {
+        margin-top: 5rem;
+    }
+
+    .massif_illu img {
+        padding: 1rem;
+        width: 28rem;
+    }
+
+    .txt_massif h4 {
+        font-size: 1.8rem;
+    }
+
+    .txt_massif p {
+        padding: 0.5rem;
+        font-size: 1.7rem;
+    }
+
+    .terra_all {
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+
+    .terra_illu img {
+        width: 30rem;
+    }
+
+    .txt_terra h4 {
+        font-size: 1.7rem;
+    }
+
+    .taillage_desktop {
+        display: block;
+    }
+
+    .taillage_all {
+        margin-top: 5rem;
+    }
+
+    .main_taillage img {
+        width: 35rem;
+    }
+
+    .txt_taillage h4 {
+        font-size: 1.7rem
+    }
+
+    .sous_taillage img {
+        padding: 1rem;
+        width: 30rem;
+    }
+}
+
+@media (min-width:1300px) {
+    .img_nos_crea {
+        margin-top: 2rem;
+    }
+
+    .img_nos_crea img {
+        width: 100vh;
+    }
+
+    .all_jardin {
+        margin-top: 10rem;
+    }
+
+    .img_crea img {
+        width: 23rem;
+    }
+
+    .all_elagage {
+        padding: 1rem;
+    }
+
+    .elagage_illu {
+        padding: 2rem;
+    }
+
+    .elagage_illu img {
+        width: 100vh;
+    }
+
+    .txt_elagage h4 {
+        font-size: 2.3rem;
+    }
+
+    .all_massif {
+        margin-top: 10rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .massif_illu {
+        
+    }
+
+    .massif_illu img {
+        padding: 1rem;
+        width: 40rem;
+    }
+
+    .txt_massif h4 {
+        font-size: 2.3rem;
+    }
+
+    .terra_all {
+        margin-top: 10rem;
+        padding: 1.5rem;
+    }
+
+    .terra_illu img {
+        padding: 1rem;
+        width: 100vh;
+    }
+
+    .txt_terra h4 {
+        font-size: 2rem;
+    }
+
+    .taillage_desktop {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .taillage_all {
+        margin-top: 10rem;
+    }
+
+    .main_taillage img {
+        width: 100vh;
+    }
+
+    .txt_taillage h4 {
+        font-size: 2rem
+    }
+
+    .sous_taillage img {
+        padding: 1rem;
+        width: 40rem;
+    }
 }
