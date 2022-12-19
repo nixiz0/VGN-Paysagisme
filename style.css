@@ -28,6 +28,7 @@ nav a {
 }
 
 .img_main {
+    background-color: #325038;
     display: flex;
     justify-content: center;
 }
