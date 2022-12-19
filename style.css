@@ -107,7 +107,6 @@ nav a {
     height: auto;
     border-radius: 20%;
     padding: 0.5rem;
-
 }
 
 .txt_illu1 {
@@ -216,13 +215,14 @@ footer {
     }
 
     .sous_body_img {
-        display: flex;
+        display: block;
         justify-content: center;
     }
 
     .body1 img {
-        width: 13rem;
-        height: auto;
+        margin-top: 4rem;
+        width: 10rem;
+        height: 20rem;
         border-radius: 20%;
     }
 
@@ -360,11 +360,14 @@ footer {
     }
 
     .body1 img {
-        width: 30rem;
+        width: 28rem;
+        height: auto;
+        border-radius: 20%;
     }
 
-    .sous_body_img img {
-        padding: 1rem;
+    .sous_body_img {
+        display: flex;
+        justify-content: center;
     }
 
     .txt_illu1 h4 {
