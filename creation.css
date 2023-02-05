@@ -72,6 +72,18 @@
     height: auto;
 }
 
+.massif_illu2 {
+    display: flex;
+    justify-content: center;
+}
+
+.massif_illu2 img {
+    padding: 0.5rem;
+    border-radius: 10%;
+    width: 10rem;
+    height: auto;
+}
+
 .txt_massif {
     text-align: center;
 }
@@ -96,6 +108,23 @@
     border-radius: 10%;
     padding: 1rem;
     width: 18rem;
+    height: auto;
+}
+
+.terra_illu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terra_illu2 h5 {
+    font-size: 1.09rem;
+}
+
+.terra_illu2 img {
+    border-radius: 12%;
+    padding: 1rem;
+    width: 12rem;
     height: auto;
 }
 
@@ -144,6 +173,18 @@
     padding: 0.7rem;
     border-radius: 15%;
     width: 16rem;
+    height: auto;
+}
+
+.sous_taillage2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sous_taillage2 img {
+    padding: 0.7rem;
+    border-radius: 15%;
+    width: 12rem;
     height: auto;
 }
 
@@ -199,6 +240,11 @@
         padding: 1rem;
         width: 28rem;
     }
+    
+    .massif_illu2 img {
+        padding: 1rem;
+        width: 18rem;
+    }
 
     .txt_massif h4 {
         font-size: 1.8rem;
@@ -216,6 +262,15 @@
 
     .terra_illu img {
         width: 30rem;
+    }
+
+    .terra_illu2 h5 {
+        font-size: 1.2rem;
+    }
+    
+    .terra_illu2 img {
+        width: 18rem;
+        height: auto;
     }
 
     .txt_terra h4 {
@@ -241,6 +296,12 @@
     .sous_taillage img {
         padding: 1rem;
         width: 30rem;
+    }
+    
+    .sous_taillage2 img {
+        padding: 1rem;
+        width: 18rem;
+        height: auto;
     }
 }
 
@@ -285,13 +346,14 @@
         flex-direction: row;
     }
 
-    .massif_illu {
-        
-    }
-
     .massif_illu img {
         padding: 1rem;
         width: 40rem;
+    }
+    
+    .massif_illu2 img {
+        padding: 1rem;
+        width: 29rem;
     }
 
     .txt_massif h4 {
@@ -306,6 +368,25 @@
     .terra_illu img {
         padding: 1rem;
         width: 100vh;
+    }
+
+    .terra_illu2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .terra_illu2 h5 {
+        font-size: 1.4rem;
+        text-align: center;
+        display: none;
+    }
+    
+    .terra_illu2 img {
+        border-radius: 12%;
+        padding: 1rem;
+        width: 18rem;
+        height: auto;
     }
 
     .txt_terra h4 {
@@ -332,5 +413,12 @@
     .sous_taillage img {
         padding: 1rem;
         width: 40rem;
+    }
+
+    .sous_taillage2 img {
+        padding: 1.5rem;
+        margin-top: 3rem;
+        width: 24rem;
+        height: auto;
     }
 }
